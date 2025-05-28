@@ -9,9 +9,6 @@ from pytz import timezone
 from keep_alive import keep_alive
 keep_alive()
 
-from dotenv import load_dotenv
-
-load_dotenv()
 TOKEN = os.getenv("DISCORD_TOKEN")
 TRIGGERS_FILE = 'triggers.json'
 POINTS_FILE = 'points.json'
